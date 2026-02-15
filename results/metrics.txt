@@ -1,0 +1,24 @@
+==================================================
+SENTIMENT ANALYSIS MLP - EVALUATION METRICS
+==================================================
+
+Test Set Accuracy: 77.53%
+
+Classification Report:
+------------------------------
+              precision    recall  f1-score   support
+
+    Negative       0.77      0.78      0.78      5000
+    Positive       0.78      0.77      0.77      5000
+
+    accuracy                           0.78     10000
+   macro avg       0.78      0.78      0.78     10000
+weighted avg       0.78      0.78      0.78     10000
+
+
+Confusion Matrix:
+------------------------------
+True Negatives: 3897
+False Positives: 1103
+False Negatives: 1144
+True Positives: 3856

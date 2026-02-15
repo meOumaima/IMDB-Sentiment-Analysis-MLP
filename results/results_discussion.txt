@@ -1,0 +1,31 @@
+==================================================
+RESULTS DISCUSSION
+==================================================
+
+Model Performance:
+- Test Accuracy: 77.53%
+- Training Accuracy (final): 77.21%
+- Validation Accuracy (final): 77.47%
+
+Observations:
+1. The model achieves around 77% accuracy on unseen test data
+2. Training and validation accuracies are very close, indicating no overfitting
+3. The loss curves show stable convergence
+4. The model performs similarly on all three data splits
+
+Strengths:
+- Simple feature engineering approach using only sentence-level scores
+- Fast training due to low-dimensional input (only 3 features)
+- Model doesn't overfit despite multiple hidden layers
+
+Limitations:
+- 77% accuracy leaves room for improvement
+- Only captures overall sentence sentiment, misses nuanced language
+- VADER and TextBlob have inherent biases
+- No word-level context is captured
+
+Possible Improvements:
+- Experiment with different hidden layer sizes
+- Try feature combinations or weighting schemes
+- Consider adding dropout for regularization
+- Could incorporate additional linguistic features
