@@ -1,0 +1,9 @@
+==================================================
+CNN - RESULTS DISCUSSION
+==================================================
+
+Model Performance:
+- Test Accuracy: 84.63%
+- Training Accuracy (final): 96.79%
+- Validation Accuracy (final): 84.82%
+
